@@ -36,7 +36,6 @@ func control(delta):
 func _on_DetectRadius_body_entered(body):
 	target = body
 
-
 func _on_DetectRadius_body_exited(body):
 	if body == target:
 		target = null

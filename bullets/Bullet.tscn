@@ -2,7 +2,7 @@
 
 [ext_resource path="res://bullets/Bullet.gd" type="Script" id=1]
 
-[node name="Bullet" type="Area2D" index="0"]
+[node name="Bullet" type="Area2D"]
 
 input_pickable = true
 gravity_vec = Vector2( 0, 1 )
@@ -13,7 +13,7 @@ audio_bus_override = false
 audio_bus_name = "Master"
 script = ExtResource( 1 )
 speed = null
-damage = null
+damage = 0
 lifetime = null
 
 [node name="Sprite" type="Sprite" parent="." index="0"]
